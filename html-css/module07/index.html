@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Design.inc</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+<header class="container page-header">
+    <nav class="menu-wrapper">
+        <a class="logo" href="#">Golden</a>
+        <ul class="nav-menu" >
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">Services</a></li>
+            <li class="menu-item"><a href="#">Portfolio</a></li>
+            <li class="menu-item"><a href="#">About</a></li>
+            <li class="menu-item"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+<main>
+    <section class="container section-item">
+    <header class="container header-text">
+        <h2>Services</h2>
+        <p>Proin iaculis purus condsequat sem cure.</p>
+    </header>
+        <ul class="item-list">
+            <li class="item-content item-icon-basket">
+                <h3>E-Commerce</h3>
+                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </li>
+            <li class="item-content item-icon-laptop">
+                <h3>Responsive Web</h3>
+                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </li>
+            <li class="item-content item-icon-locked">
+                <h3>Web Security</h3>
+                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="main-footer-wrapper">
+        <header class="сontainer  header-text">
+            <h2>Contact us</h2>
+            <p>Proin iaculis purus condsequat sem cure.</p>
+        </header>
+        <form class="form-text-style container" method="POST" id="user_request" action="#">
+            <div class="form-input-items">
+                <input type="text" name="customer-name" placeholder="Your name *" id="name" required>
+                <input type="email" name="customer-email" placeholder="Your e-mail *" id="email" required>
+                <input type="text" name="customer-subject" placeholder="Subject" id="subject" >
+            </div>
+            <textarea name="customer-message" placeholder="Your message *" required wrap="soft" form="user_request"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

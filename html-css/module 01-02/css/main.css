@@ -1,0 +1,13 @@
+body{
+background-image: url("http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg");
+}
+
+h1 {color: rgb(7, 181, 163);}
+
+li {color: rgb(26, 181, 105);
+    font-size: 20px;}
+
+a {text-decoration: none;}
+
+li:hover,a:hover {color: rgb(177, 73, 170);
+    text-decoration: none;}
